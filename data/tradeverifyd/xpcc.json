@@ -1,0 +1,965 @@
+{
+  "source": "tradeverifyd",
+  "pulled_at": "2026-11-19",
+  "company": {
+    "entity_id": "a539a5de-5d14-48d4-bd90-e026c60ea33a",
+    "name": "Xinjiang Production and Construction Corps",
+    "country": "CN",
+    "aliases": [
+      "Bingtuan",
+      "XINJIANG PRODUCTION AND CONSTRUCTION CORPS",
+      "XPCC",
+      "Xinjiang Corps",
+      "Xinjiang Production and Construction Corporation (XPCC)",
+      "Xinjiang Production and Construction Corps",
+      "Xinjiang Production and Construction Corps (XPCC)",
+      "Xīnjiāng Shēngchǎn Jiànshè Bīngtuán",
+      "新疆生产建设兵团",
+      "新疆生产建设兵团融资担保有限公司"
+    ],
+    "external_ids": [
+      {
+        "type": "lei",
+        "value": "300300Z6012165000091"
+      },
+      {
+        "type": "company_number",
+        "value": "916500007291577150"
+      }
+    ],
+    "industry": null
+  },
+  "tradeverifyd_score": 256,
+  "designations": [
+    {
+      "list": "US OFAC",
+      "name": "Specially Designated Nationals (SDN) - Treasury Department",
+      "category": "OFAC",
+      "issuer_country": "US",
+      "date": null,
+      "url": "https://sanctionslist.ofac.treas.gov/Home/SdnList"
+    },
+    {
+      "list": "US OFAC",
+      "name": "Global Magnitsky Sanctions",
+      "category": "OFAC",
+      "issuer_country": "US",
+      "date": null,
+      "url": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+      "list": "US BIS",
+      "name": "Entity List (EL) - Bureau of Industry and Security",
+      "category": "BIS",
+      "issuer_country": "US",
+      "date": "2021-06-24",
+      "url": "https://www.bis.gov/regulations/ear/744#supplement-4-744"
+    },
+    {
+      "list": "BIS Entity List",
+      "name": "BIS Entity List (EL)",
+      "category": "BIS",
+      "issuer_country": "US",
+      "date": "2021-06-24",
+      "url": "https://www.opensanctions.org/datasets/us_trade_csl/"
+    },
+    {
+      "list": "CBP WRO",
+      "name": "US CBP Withhold Release Orders and Findings",
+      "category": "US CBP WRO",
+      "issuer_country": "US",
+      "date": "2020-11-30",
+      "url": "https://www.opensanctions.org/datasets/us_cbp_forced_labor/"
+    },
+    {
+      "list": "UFLPA",
+      "name": "Uyghur Forced Labor Prevention Act (Public Law No. 117-78)",
+      "category": "UFLPA",
+      "issuer_country": "US",
+      "date": "2022-06-21",
+      "url": "https://www.opensanctions.org/datasets/us_dhs_uflpa/"
+    },
+    {
+      "list": "SAM Exclusions",
+      "name": "US SAM Procurement Exclusions",
+      "category": "GSA",
+      "issuer_country": "US",
+      "date": "2020-07-31",
+      "url": "https://www.opensanctions.org/datasets/us_sam_exclusions/"
+    },
+    {
+      "list": "Forced Labor Research",
+      "name": "C4ADS Long Shadows (Xinjiang)",
+      "category": "Forced Labor Research",
+      "issuer_country": "research",
+      "date": null,
+      "url": "https://www.opensanctions.org/datasets/c4ads_xinjiang/"
+    },
+    {
+      "list": "Forced Labor Research",
+      "name": "Companies Operating in the Uyghur Region",
+      "category": "Forced Labor Research",
+      "issuer_country": "research",
+      "date": null,
+      "url": "https://www.opensanctions.org/datasets/shu_uyghur_companies/"
+    }
+  ],
+  "parents": [],
+  "subsidiaries": [
+    {
+      "entity_id": "9ef9118e-53c1-405f-9263-068c806eb303",
+      "name": "XINJIANG TIANYE GROUP COMPANY",
+      "country": "CN",
+      "relationship_type": "parent_subsidiary",
+      "source": "Tradeverifyd Legacy Data Model",
+      "annotation_count": 1,
+      "badges": {
+        "Forced Labor Research": 1
+      }
+    },
+    {
+      "entity_id": "31f73396-593a-4b37-83e4-0fcb4377897e",
+      "name": "Tianshan Aluminum Group Co., Ltd.",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 4,
+      "badges": {
+        "UFLPA": 1,
+        "Forced Labor Research": 3
+      }
+    },
+    {
+      "entity_id": "8822b835-e25a-40aa-980a-eab360d1f8b7",
+      "name": "Xinjiang Western Yinli Cotton Industry Group Co Ltd",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 3,
+      "badges": {
+        "Forced Labor Research": 3
+      }
+    },
+    {
+      "entity_id": "87cdcaba-4990-4864-9ee9-7474220a288c",
+      "name": "China Xinjiang Chalkis Co. Ltd",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "5e91d7b0-6ef5-49c0-8dc4-e3bdc815c249",
+      "name": "INNER MONGOLIA CHALKIS TOMATO PRODUCTS CO.,LTD.",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 3,
+      "badges": {
+        "Forced Labor Research": 3
+      }
+    },
+    {
+      "entity_id": "e85e2078-6892-42b2-ad32-2854e212e6a3",
+      "name": "XINJIANG GUANNONG TOMATO PRODUCTS CO., LTD.",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 3,
+      "badges": {
+        "Forced Labor Research": 3
+      }
+    },
+    {
+      "entity_id": "e04b6278-7fd5-46db-9854-a13f589657fb",
+      "name": "Xinjiang Xiyu Honglu Textile Technology Co., Ltd",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "4bae1773-a348-413d-b963-0567e812d5a3",
+      "name": "Xinjiang Qixin Garment Co",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "c4ebdb7b-2cb3-4e60-8d2f-028b2f23214d",
+      "name": "Shihezi Hengsheng Clothing Co., Ltd.",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "2821b19b-1c35-4afe-bee3-1c73d0fc7263",
+      "name": "Urumqi Xishan Garment Factory",
+      "country": "CN",
+      "relationship_type": "parent_subsidiary",
+      "source": "Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "2e38516b-7708-4e54-9cd7-96ba85449f7a",
+      "name": "Xinjiang Ecoone Naturals Co., Ltd.",
+      "country": "CN",
+      "relationship_type": "ownership",
+      "source": "Sanctions list",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "def8451b-1cfb-492f-8d1d-dabfe0e3ca55",
+      "name": "XINJIANG QINGSONG BUILDING MATERIALS GROUP COMPANY",
+      "country": "CN",
+      "relationship_type": "parent_subsidiary",
+      "source": "Tradeverifyd Legacy Data Model",
+      "annotation_count": 1,
+      "badges": {
+        "Forced Labor Research": 1
+      }
+    },
+    {
+      "entity_id": "5b9e63ab-0e1b-49de-b3fc-285fcb552233",
+      "name": "Xinjiang Production and Construction Corps State Owned Assets Management Co., Ltd.",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 1,
+      "badges": {
+        "Forced Labor Research": 1
+      }
+    },
+    {
+      "entity_id": "2dbbc2b2-1d8c-495d-ba74-afbd77173479",
+      "name": "Xinjiang Production and Construction Corps First Division",
+      "country": "CN",
+      "relationship_type": "ownership",
+      "source": "Sanctions list",
+      "annotation_count": 1,
+      "badges": {
+        "Forced Labor Research": 1
+      }
+    },
+    {
+      "entity_id": "7d92cce0-290a-440a-8d8c-e3343eee0af6",
+      "name": "Xinjiang Production and Construction Corps Sixth Division",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "f2113dde-1609-4952-a650-a551d2da2c49",
+      "name": "Xinjiang Production and Construction Corps Second Division",
+      "country": "CN",
+      "relationship_type": "ownership",
+      "source": "Sanctions list",
+      "annotation_count": 1,
+      "badges": {
+        "Forced Labor Research": 1
+      }
+    },
+    {
+      "entity_id": "ac92c6ed-3c82-402c-8b61-2ad50d11ad63",
+      "name": "Xinjiang Production & Construction Corps Seventh Agricultural Division",
+      "country": "CN",
+      "relationship_type": "ownership",
+      "source": "Sanctions list",
+      "annotation_count": 1,
+      "badges": {
+        "Forced Labor Research": 1
+      }
+    },
+    {
+      "entity_id": "cb790c0c-ebf3-4261-ab2d-ee6cedc553ec",
+      "name": "Xinjiang Sixth Agricultural Division Aluminum Industry Co., Ltd.",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "372ef3a1-324c-46e1-862f-662f41a9f558",
+      "name": "Xinjiang Production and Construction Corps Second Agricultural Division Kunshan Cotton Industry Co., Ltd.",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "902e66f0-dc63-42a9-bf68-415ab32207cf",
+      "name": "Xinjiang Production and Construction Corps Second Agricultural Division Yinlai Cotton Industry Co., Ltd.",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "5131f610-4b12-4cb8-882f-0eb05dc2ec01",
+      "name": "Xinjiang Production and Construction Corps Fourth Division Chuangjin Cotton Industry Co., Ltd.",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 3,
+      "badges": {
+        "Forced Labor Research": 3
+      }
+    },
+    {
+      "entity_id": "72e147eb-3245-4b7d-9325-768f8f48403e",
+      "name": "Xinjiang Production and Construction Corps 13th Division Liheng Cotton Industry Co., Ltd.",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "36bcfbde-92cc-47ff-a40a-83dbe4cc3f42",
+      "name": "The Third Agricultural Division of Xinjiang Corps Qian Sponge Industry Co., Ltd.",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "e8dab281-a58e-4239-ac8d-1cf8c7bbdb4b",
+      "name": "Zhongjiazhuang Prison’s garment factory of the 8th Division",
+      "country": "CN",
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": 2,
+      "badges": {
+        "Forced Labor Research": 2
+      }
+    },
+    {
+      "entity_id": "8140c3e0-7573-4c0d-8014-0c8cae58e40e",
+      "name": "Xishan Prison",
+      "country": "CN",
+      "relationship_type": "ownership",
+      "source": "Sanctions list",
+      "annotation_count": 1,
+      "badges": {
+        "Forced Labor Research": 1
+      }
+    },
+    {
+      "entity_id": "08ad026c-c067-4eb6-b45f-8fdbfd2e3598",
+      "name": "Cotton Ginning Factory of the 10th Regiment of the Sixth Division of Xinjiang Production and Construction Corps",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "125f7524-f2b0-4b80-96d2-5e95d0eb6f35",
+      "name": "No. 4 Agricultural Division 67th Regiment Cotton Processing Factory",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "1ca53387-94f3-4a05-9dc8-6fcd5cfe3cb5",
+      "name": "Xinjiang Production and Construction Corps Second Division 30th Regiment Cotton Processing No. 1 Branch",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "1f333edf-f3e8-4b06-a929-0da1dda68272",
+      "name": "Processing Plant of the First Division of the Xinjiang Production and Construction Corps",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "213b186e-fe77-4fe5-bf9d-874bd8ccd005",
+      "name": "Xinjiang Production and Construction Corps No. 5 Agricultural Division 85th Regiment Gin Factory",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "255b4695-356a-4542-821d-f98eff018c80",
+      "name": "Processing Plant of the 64th Regiment of the Fourth Agricultural Division of Xinjiang Production and Construction Corps",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "2ed1cb1a-230b-45df-8c0b-361918e0b9f2",
+      "name": "Liushuquan Farm Green Willow Cotton Processing Factory of the Thirteenth Division of Xinjiang Production and Construction Corps",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "331f1c82-e85b-4b33-b35e-18b936899c42",
+      "name": "Yili Agricultural Fourth Division Sixty-eight Group Cotton",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "3afdf621-7510-4151-ad37-790edbe7f505",
+      "name": "Pishan Farm Processing Factory of the 14th Division of Xinjiang Production and Construction Corps",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "4d77fac5-4da9-4ce4-a6e0-b314bac6c98b",
+      "name": "Wujiaqu Xinxin Building Materials Factory",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "6f8ebf4e-41b3-4b01-b76c-ad4d5d02420e",
+      "name": "Xinjiang University of Technology",
+      "country": null,
+      "relationship_type": "ownership",
+      "source": "Sanctions list",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "794faf7e-3c45-4d61-8d84-1a1d7fbc5aa9",
+      "name": "Shihezi City First Water Conservancy and Hydropower Engineering Department Garment Factory",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "796b2b76-4d77-42e8-ad8b-090765ec4015",
+      "name": "Processing Plant of the First Division and Second Regiment of Xinjiang Production and Construction Corps",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "988ea32b-7014-4ca4-933b-9cc3edf9f408",
+      "name": "Xinjiang Production and Construction Corps Sixth Division Xinhu Farm Lung Cheung tomato cooperatives",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "9ad6ccc5-f6d3-4d69-b325-eb983e53f73e",
+      "name": "Xinjiang Production and Construction Corps 7th Division Kuidong Farm Cotton Processing Factory",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "a1a0decb-44d3-42b4-8ec4-a20ca52b4f8f",
+      "name": "Xinjiang Corps No. 3 Agricultural Division Qian Sponge Industry Co., Ltd. Yesha Ginning Factory",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "b0dc4761-2892-47ec-b0f1-e18cab66b3c3",
+      "name": "Comprehensive Processing Plant of the Communist Youth League Farm of the Sixth Division",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "bf9405c0-267e-448e-8ce7-1cbffef08b6e",
+      "name": "Dongfeng Ginning Factory of the Third Agricultural Division of Xinjiang Corps",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "dd156efa-a07f-4a7c-aa11-d8bc76dee8f7",
+      "name": "The No. 2 Ginning Plant of the 65th Regiment of Cotton and Linen Company",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "df32a29e-3f0f-46ea-b757-41f18903f34a",
+      "name": "Qiganquele Processing Factory, Forty-fourth Regiment Center, Tumushuk City",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "e0a60261-fd2b-4585-81ae-a3abb056c061",
+      "name": "Cotton Processing Plant of Tianyuan Supply and Marketing (Group) Co., Ltd., the 13th Division of Xinjiang Production and Construction Corps",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "e770524d-c41b-406e-838a-bd28b10f1993",
+      "name": "Xinjiang Production and Construction Corps 13th Division Red Star First Field Grain and Cotton Processing Plant",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "f3581778-33c5-433c-94d8-b0e22182b186",
+      "name": "Huangtian Farm Processing Factory of the 13th Division of Xinjiang Production and Construction Corps",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "ff11326a-a53a-48bb-9944-04a50c04ea2d",
+      "name": "Xinjiang Production and Construction Corps Second Division 30th Regiment Cotton Processing Second Branch",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    },
+    {
+      "entity_id": "ffbad6f6-8516-4185-b352-aec1610a2b47",
+      "name": "Xinjiang Production and Construction Corps Agricultural Construction 14th Division Kunlun Mountain Cotton Industry Agricultural Materials Co. Pimoken District Comprehensive Processing Plant",
+      "country": null,
+      "relationship_type": "ownership; parent_subsidiary",
+      "source": "Sanctions list; Tradeverifyd Legacy Data Model",
+      "annotation_count": null,
+      "badges": null
+    }
+  ],
+  "subsidiaries_total": 50,
+  "key_subsidiary_details": [
+    {
+      "entity_id": "1e287976-c7e3-405f-8243-f98c0b40d679",
+      "name": "Xinjiang Zhongtai Group Co",
+      "designations": [
+        {
+          "list": "UFLPA",
+          "name": "Uyghur Forced Labor Prevention Act (Public Law No. 117-78)",
+          "category": "UFLPA",
+          "issuer_country": "US",
+          "date": "2023-06-12",
+          "url": "https://www.opensanctions.org/datasets/us_dhs_uflpa/"
+        },
+        {
+          "list": "Forced Labor Research",
+          "name": "C4ADS Fractured Veins (Xinjiang Mining Industry)",
+          "category": "Forced Labor Research",
+          "issuer_country": "research",
+          "date": null,
+          "url": "https://www.opensanctions.org/datasets/c4ads_xinjiang_mining/"
+        },
+        {
+          "list": "Forced Labor Research",
+          "name": "Companies Operating in the Uyghur Region",
+          "category": "Forced Labor Research",
+          "issuer_country": "research",
+          "date": null,
+          "url": "https://www.opensanctions.org/datasets/shu_uyghur_companies/"
+        }
+      ],
+      "buyers": [
+        {
+          "entity_id": "e5464371-3918-470f-a3b4-e71b32c3eb0b",
+          "name": "FINE FLOW PLASTIC INDUSTRIES",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "b8504302-225d-4c02-8d42-5f9e048c4b5a",
+          "name": "ANIL",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "6e5c5002-2877-498a-a992-749e7be955ad",
+          "name": "ABM INTERNATIONAL LIMITED",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "723ff209-2468-4aeb-bb41-8029f85ad4d3",
+          "name": "TIRUPATI STRUCTURALS LIMITED",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "2314ccc3-2c36-45a4-b4d1-b9a6d46e40bd",
+          "name": "BGM PETROCHEM PRIVATE LIMITED",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "0fda5b9d-c8e5-496e-89dc-278a096bf2cc",
+          "name": "MARVEL LIMITED",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "74064dc5-1527-4b10-8a0f-02ae328b58b2",
+          "name": "PRECISION ENGINEERING WORKS",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "5980b7d4-cc49-47fd-88ce-95a2ea5e8d0b",
+          "name": "SD INDUSTRIES",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "8d714b3b-87c6-4281-a2de-87abbd2249d9",
+          "name": "BANSAL POLYMERS",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "d933b96a-9be4-4eb1-ba79-d544d565f2f9",
+          "name": "APOLLO HOSPITALS ENTERPRISE LIMITED",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "41a99b42-4642-4217-8342-eb603b8b7ef8",
+          "name": "JAI GOPAL INTERNATIONAL IMPEX PRIVATE LIMITED",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "f4b9cb1b-77fb-45af-a9eb-95efecd43e2a",
+          "name": "SAGAR ELECTRICALS",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "f4fdc329-4936-4c00-9e20-6d78d0144337",
+          "name": "ANR INTERNATIONAL PRIVATE LIMITED",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "19f8d1f2-8e93-4997-843f-3915cad16a87",
+          "name": "MANGLA PIPES PRIVATE LIMITED",
+          "hs_codes": [
+            "390422"
+          ]
+        },
+        {
+          "entity_id": "35808940-c2f3-4ab8-b277-83e1f98db48d",
+          "name": "SUBHASH TRADING CO.",
+          "hs_codes": [
+            "390422"
+          ]
+        }
+      ]
+    },
+    {
+      "entity_id": "2d662167-f2c0-46d8-b42b-1bcb40fc95f8",
+      "name": "Xinjiang Zhongtai Import & Export Co., Ltd",
+      "designations": [],
+      "buyers": [
+        {
+          "entity_id": "bfc0da76-0d52-4529-8a26-3b33ddeee34f",
+          "name": "llc \"biznesgarant-nn\"",
+          "hs_codes": [
+            "2815110000",
+            "3904100001",
+            "3904100009"
+          ]
+        },
+        {
+          "entity_id": "edfb67f8-0918-440a-ae83-ae659f6b1a98",
+          "name": "avantgard llc (civil textile llc)",
+          "hs_codes": [
+            "5504100000"
+          ]
+        },
+        {
+          "entity_id": "e09d00a8-166b-42c0-ac2c-63518c80a8f8",
+          "name": "ip ibragimov eldar bagadurovich",
+          "hs_codes": [
+            "3904100009"
+          ]
+        },
+        {
+          "entity_id": "01f7d7b9-f3c5-4948-bc2b-f47af151497a",
+          "name": "ALPINA, OOO",
+          "hs_codes": [
+            "3904100009"
+          ]
+        },
+        {
+          "entity_id": "fc8f3a39-8611-4185-8501-43ee12e77476",
+          "name": "\"arteltrans\" llc for \"spears\" llc",
+          "hs_codes": [
+            "3904100009"
+          ]
+        },
+        {
+          "entity_id": "5c4d5e2f-4c1a-4594-9cfa-7660bc4045d6",
+          "name": "llc \"utek\" for llc \"spears\"",
+          "hs_codes": [
+            "3904100009"
+          ]
+        },
+        {
+          "entity_id": "bb25fdf9-693f-4a6a-b4f1-5c9f2ca6a8f2",
+          "name": "llc \"heat generating company 1\"",
+          "hs_codes": [
+            "3904100001"
+          ]
+        },
+        {
+          "entity_id": "e4767692-9728-4344-83d5-b7cfb894125e",
+          "name": "llc \"volgapolymerplast\"",
+          "hs_codes": [
+            "3904100001"
+          ]
+        },
+        {
+          "entity_id": "7cd80c20-d3db-457a-9980-f4e44c517d77",
+          "name": "FPK TRANSAGENTSTVO, AO",
+          "hs_codes": [
+            "3904100001",
+            "3904100009"
+          ]
+        },
+        {
+          "entity_id": "fa1e7747-37ba-4625-a572-2b54721678f6",
+          "name": "SANHUA (VIETNAM) COMPANY LIMITED",
+          "hs_codes": [
+            "28151100"
+          ]
+        },
+        {
+          "entity_id": "9c7016cd-b4db-423c-90ac-7378d4c7326f",
+          "name": "LLC UTEK",
+          "hs_codes": [
+            "2815110000",
+            "3904100009"
+          ]
+        },
+        {
+          "entity_id": "021eeab8-55ae-47be-9560-e526482f6005",
+          "name": "llc bashplast",
+          "hs_codes": [
+            "3904100009"
+          ]
+        },
+        {
+          "entity_id": "337f2236-5315-4f28-862e-9ec9f4c81b57",
+          "name": "jsc \"eurosib spb-transport systems\" for llc \"usidg\"",
+          "hs_codes": [
+            "3904100009"
+          ]
+        },
+        {
+          "entity_id": "afc04c9b-1dee-4f6b-928a-aa6d6014fd9d",
+          "name": "llc <sk terminal - logistics>",
+          "hs_codes": [
+            "2815110000",
+            "3904100001",
+            "3904100009"
+          ]
+        },
+        {
+          "entity_id": "cccca667-c617-45f1-8151-04e1ef312961",
+          "name": "llc \"trofi\"",
+          "hs_codes": [
+            "3904100009"
+          ]
+        }
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "entity_id": "923b3f67-7164-44e7-9706-94316ffb9ba8",
+      "name": "CN COTTON STATEOWNED FARMS GROUP",
+      "country": "CN",
+      "hs_codes": [
+        "120729"
+      ],
+      "badges": {}
+    }
+  ],
+  "buyers": [
+    {
+      "entity_id": "a064b6be-020a-4c91-b13d-967d388c3ade",
+      "name": "Xinjiang Tianshan Textile Co.",
+      "country": "CN",
+      "hs_codes": [
+        "520100"
+      ],
+      "badges": {
+        "Forced Labor Research": 2,
+        "UFLPA": 1
+      }
+    }
+  ],
+  "flagged_paths": [
+    {
+      "direction": "out",
+      "annotated_entity": {
+        "entity_id": "a064b6be-020a-4c91-b13d-967d388c3ade",
+        "name": "Xinjiang Tianshan Textile Co.",
+        "country": "CN",
+        "badges": {
+          "Forced Labor Research": 2,
+          "UFLPA": 1
+        }
+      },
+      "hops": [
+        {
+          "entity_id": "a539a5de-5d14-48d4-bd90-e026c60ea33a",
+          "name": "Xinjiang Production and Construction Corps",
+          "tier": 0,
+          "hs_codes": []
+        },
+        {
+          "entity_id": "a064b6be-020a-4c91-b13d-967d388c3ade",
+          "name": "Xinjiang Tianshan Textile Co.",
+          "tier": 1,
+          "hs_codes": [
+            "520100"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_records": [
+    {
+      "entity_id": "1e287976-c7e3-405f-8243-f98c0b40d679",
+      "name": "Xinjiang Zhongtai Group Co",
+      "country": "CN",
+      "why": "Named in the brief as part of the XPCC story; UFLPA-listed (2023-06-12). Not linked to XPCC by any affiliate record in Tradeverifyd. Exports PVC (HS 390422) to 28 buyers, mostly Indian."
+    },
+    {
+      "entity_id": "2d662167-f2c0-46d8-b42b-1bcb40fc95f8",
+      "name": "Xinjiang Zhongtai Import & Export Co., Ltd",
+      "country": "CN",
+      "why": "Zhongtai trading arm by name; carries no designations of its own (score 736 vs 256 for Zhongtai Group) yet ships caustic soda (2815), PVC (3904) and viscose staple fibre (5504) to 42 buyers, mostly Russian."
+    },
+    {
+      "entity_id": "48b5a97b-091f-49d9-84d3-4fbe98db3648",
+      "name": "ZHEJIANG HUAFU TOP DYED MELANGE YARN COMPANY LIMITED",
+      "country": null,
+      "why": "Only recorded buyer of Xinjiang Tianshan Textile Co. (raw cotton, HS 520100), i.e. tier 2 downstream of XPCC cotton. Badges not looked up."
+    },
+    {
+      "entity_id": "a064b6be-020a-4c91-b13d-967d388c3ade",
+      "name": "Xinjiang Tianshan Textile Co.",
+      "country": "CN",
+      "why": "XPCC's only recorded trade buyer (raw cotton, HS 520100); UFLPA-listed."
+    }
+  ],
+  "notes": [
+    "Merged-record problem on XPCC itself: the alias list includes 新疆生产建设兵团融资担保有限公司 ('XPCC Financing Guarantee Co., Ltd.'), a separate company. The LEI 300300Z6012165000091 and company number 916500007291577150 most likely belong to that company rather than to the Corps, which is a state body (inferred, not verified against GLEIF).",
+    "Tianshan Aluminum Group's record carries aliases of Shimge Pump Industry Group / Zhejiang Shimge Pump (新界泵业). This reflects Tianshan Aluminum's 2020 reverse listing into the Shimge shell, but a user searching for the pump maker would land on a UFLPA-listed aluminium producer.",
+    "Xinjiang Guannong Tomato Products' record merges the parent Xinjiang Guannong Fruit & Antler (Guannong Fruit Velvet Group) aliases; the XPCC Sixth Division record merges 'Cotton and Linen Company of the Sixth Division'.",
+    "Subsidiaries: the affiliate endpoint returned 91 records, which collapse to 50 unique entities because most appear twice (once from 'Sanctions list' ownership data, once from 'Tradeverifyd Legacy Data Model'). Tianye, Urumqi Xishan Garment Factory and Qingsong Building Materials appear only in legacy data; Ecoone, First/Second/Seventh Divisions, Xishan Prison and Xinjiang University of Technology appear only in sanctions-list data.",
+    "All 25 subsidiaries looked up carry at least one flag; none has zero. But 24 of 25 carry only 'Forced Labor Research' badges; only Tianshan Aluminum also has UFLPA. None inherits XPCC's OFAC, BIS or CBP WRO designations in this data, even though OFAC's 50% rule would in practice cover majority-owned entities.",
+    "Xinjiang Tianye Group (chemicals/PVC) carries only 1 research flag and no recorded trade relationships.",
+    "The 25 subsidiaries not looked up (mostly regiment-level gins and cotton processing plants) have annotation_count and badges set to null; this is not a clean result.",
+    "Xinjiang Zhongtai Group is UFLPA-listed (2023-06-12) but is not linked to XPCC by any affiliate record; Xinjiang Zhongtai Import & Export has no designations and no affiliate link to Zhongtai Group was checked. Its buyers include Russian polymer firms and Sanhua (Vietnam). Zhongtai Group's PVC buyers include Apollo Hospitals Enterprise (India). No Western brands appear among the buyers retrieved (first 15 of 28 and 15 of 42).",
+    "China Xinjian Group was not found by name search (closest hits were unrelated: China Xinyuan, China Yanjian, China Xinlian).",
+    "XPCC's own trade footprint is thin: 1 supplier and 1 buyer. The supplier 'CN COTTON STATEOWNED FARMS GROUP' looks like a generic placeholder name from shipping data (country-prefixed, no aliases or IDs) and carries no flags.",
+    "Downstream (out, depth 2): only one flagged path, XPCC -> Xinjiang Tianshan Textile Co. (raw cotton 520100; UFLPA + research). Tianshan Textile's only buyer is Zhejiang Huafu Top Dyed Melange Yarn, which was not flagged in the path results.",
+    "OFAC designations have no date in the data. tia_quick_check reports screening status 'not_screened'; the designations listed are platform-attached annotations, not a screening run.",
+    "No parent entities are recorded for XPCC."
+  ]
+}
