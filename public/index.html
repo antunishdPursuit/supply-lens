@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Supply Lens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="#/home">Supply Lens</a>
+  <div class="navlinks">
+    <a href="#/home" data-page="home">Home</a>
+    <a href="#/cases/1/1" data-page="cases">The cases</a>
+    <a href="#/search" data-page="search">Web evidence</a>
+    <a href="#/sources" data-page="sources">Sources</a>
+  </div>
+</nav>
+
+<!-- HOME -->
+<main class="page" id="page-home">
+  <section class="home-hero">
+    <p class="eyebrow">Three investigations · one question</p>
+    <h1>Where does your stuff come from?</h1>
+    <p class="lede">Companies buy from companies, who buy from other companies. Some of those suppliers are on government lists for <dfn data-term="forced">forced labour</dfn> or <dfn data-term="sanction">sanctions</dfn>. We traced three real chains. Pick one to start.</p>
+  </section>
+  <section class="case-cards" id="caseCards"></section>
+  <section class="how">
+    <h2>How we know</h2>
+    <p class="sub">Each case combines three kinds of evidence. No single source told the whole story.</p>
+    <div class="how-grid">
+      <div class="how-item"><span class="how-ico" aria-hidden="true">⛓️</span><h3>Trade data</h3><p>Who ships to whom, and which government lists a company is on. <em>From Tradeverifyd.</em></p></div>
+      <div class="how-item"><span class="how-ico" aria-hidden="true">🌳</span><h3>Ownership</h3><p>Who owns whom, and how risk passes from a parent to the companies it owns. <em>From Sayari.</em></p></div>
+      <div class="how-item"><span class="how-ico" aria-hidden="true">🔎</span><h3>The open web</h3><p>Official notices, investigations and news that name the company. <em>Searched with Tavily.</em></p></div>
+    </div>
+    <a class="cta" href="#/cases/1/1">Start with case 1 →</a>
+  </section>
+</main>
+
+<!-- CASES -->
+<main class="page" id="page-cases" hidden>
+  <div class="stage">
+    <svg id="map" role="img" aria-label="Map for the current story step"></svg>
+    <div class="case-tabs" id="caseTabs" role="tablist"></div>
+    <div class="chain" id="chain"></div>
+    <article class="story-card" id="storyCard" aria-live="polite"></article>
+    <div class="controls">
+      <button type="button" id="prevBtn" aria-label="Previous step">← Back</button>
+      <div class="dots" id="dots"></div>
+      <button type="button" id="nextBtn" class="primary" aria-label="Next step">Next →</button>
+      <button type="button" id="playBtn" aria-label="Play the story automatically">▶ Play</button>
+    </div>
+    <div class="progress"><div id="progressBar"></div></div>
+  </div>
+</main>
+
+<!-- SEARCH -->
+<main class="page narrow" id="page-search" hidden>
+  <h1>Web evidence</h1>
+  <p class="lede">What the open web says about each company in our cases. We searched with Tavily for official notices, research and news that name the company, kept only results that do, and labelled each by type.</p>
+  <div class="warn"><b>Read results with care.</b> A news story mentioning a company is not proof of wrongdoing, and finding nothing would not mean a company is clean. These are saved web search results, not a sanctions screening.</div>
+  <p class="quick">Choose a company:
+    <button type="button" data-ev="chenguang">Chenguang Biotech</button>
+    <button type="button" data-ev="sovcomflot">Sovcomflot</button>
+    <button type="button" data-ev="xpcc">XPCC</button>
+  </p>
+  <div class="filters" id="filters" hidden></div>
+  <div id="results" aria-live="polite"></div>
+</main>
+
+<!-- SOURCES -->
+<main class="page narrow" id="page-sources" hidden>
+  <h1>Sources</h1>
+  <p class="lede">Every numbered claim in the cases links here. For each claim we list the official record first, then research and reporting, then the data provider's record.</p>
+  <div id="claims"></div>
+  <details class="block"><summary>Where our data comes from</summary>
+    <dl>
+      <dt>Tradeverifyd</dt><dd>Company records, trade relationships with product codes, ownership links and stored government listings. Pulled on 19 November 2026 through Tradeverifyd's read-only data tools and cached.</dd>
+      <dt>Sayari</dt><dd>Ownership percentages, subsidiaries, shipment counts and risk factors. Read from Sayari Graph on 19 November 2026 with event access and Sayari's permission, and copied into our cached files.</dd>
+      <dt>Tavily</dt><dd>Web search. All web evidence was retrieved on 19 November 2026 at about 12:20 PM ET and saved; the site does not search live. Tavily did not return publication dates for these results, so each source shows its retrieval time; government listings show their listing dates.</dd>
+      <dt>Maps</dt><dd>Country shapes from Natural Earth via the world-atlas package.</dd>
+    </dl>
+  </details>
+  <details class="block"><summary>Method and limits</summary>
+    <ul>
+      <li>Listings are records stored by the data providers, not a live sanctions screening.</li>
+      <li>A trade or ownership link shows a connection. It is not proof that a specific product involved forced labour.</li>
+      <li>We found and corrected data errors: a different company (Beijing Tsingke Biotech) merged into Chenguang's record, an entity named "Canada" in a trade route, and McCormick recorded as "Banrion, LLC".</li>
+      <li>"Alerts" means listings stored in a database. "Risk factors" are Sayari's labels, including risk passed down through ownership. The counts measure different things.</li>
+      <li>Chinese subsidiary names were translated by us. Some map positions are approximate (city or country level).</li>
+    </ul>
+  </details>
+  <details class="block"><summary>All official lists referenced</summary><ul class="links" id="listLinks"></ul></details>
+  <p class="foot">Supply Lens · Built at the NYU × Microsoft Ethical Tech Hackathon, 19 November 2026.</p>
+</main>
+
+<div class="tip" id="tip" role="tooltip" hidden></div>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
