@@ -45,20 +45,20 @@
 <main class="page" id="page-cases" hidden>
   <div class="stage">
     <svg id="map" role="img" aria-label="Map for the current story step"></svg>
-    <div class="case-tabs" id="caseTabs" role="tablist"></div>
+    <div class="case-tabs" id="caseTabs" role="group" aria-label="Choose a case"></div>
     <div class="chain" id="chain"></div>
     <article class="story-card" id="storyCard" aria-live="polite"></article>
     <div class="controls">
       <button type="button" id="prevBtn" aria-label="Previous step">← Back</button>
       <div class="dots" id="dots"></div>
-      <button type="button" id="nextBtn" class="primary" aria-label="Next step">Next →</button>
-      <button type="button" id="playBtn" aria-label="Play the story automatically">▶ Play</button>
+      <button type="button" id="nextBtn" class="primary">Next →</button>
+      <button type="button" id="playBtn" aria-pressed="false" title="Play the story automatically">▶ Play</button>
     </div>
     <div class="progress"><div id="progressBar"></div></div>
   </div>
 </main>
 
-<!-- SEARCH -->
+<!-- WEB EVIDENCE -->
 <main class="page narrow" id="page-search" hidden>
   <h1>Web evidence</h1>
   <p class="lede">What the open web says about each company in our cases. We searched with Tavily for official notices, research and news that name the company, kept only results that do, and labelled each by type.</p>
