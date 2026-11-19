@@ -43,13 +43,15 @@ const COMPANIES = {
 };
 
 const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } };
+const on = (h, d) => h === d || h.endsWith("." + d);
 const kindOf = (h, self) =>
-  self.some((d) => h.endsWith(d)) ? "company_says" :
-  OFFICIAL.some((d) => h.endsWith(d)) ? "official" :
-  RESEARCH.some((d) => h.endsWith(d)) ? "research" :
-  NEWS.some((d) => h.endsWith(d)) ? "news" : "other";
+  self.some((d) => on(h, d)) ? "company_says" :
+  OFFICIAL.some((d) => on(h, d)) ? "official" :
+  RESEARCH.some((d) => on(h, d)) ? "research" :
+  NEWS.some((d) => on(h, d)) ? "news" : "other";
 
 mkdirSync(join(root, "data", "evidence"), { recursive: true });
+const pending = []; // write only after every company fetched successfully
 for (const [slug, c] of Object.entries(COMPANIES)) {
   const out = { company: slug, fetched_at: new Date().toISOString(), results: [] };
   const seen = new Set();
@@ -62,8 +64,10 @@ for (const [slug, c] of Object.entries(COMPANIES)) {
       headers: { Authorization: `Bearer ${KEY}`, "Content-Type": "application/json" },
       body: JSON.stringify(body),
     });
+    if (!res.ok) throw new Error(`Tavily returned ${res.status} for "${q.q}"; existing caches left unchanged.`);
     const d = await res.json();
-    for (const r of d.results || []) {
+    if (!Array.isArray(d.results)) throw new Error(`Unexpected Tavily response for "${q.q}"; existing caches left unchanged.`);
+    for (const r of d.results) {
       if (seen.has(r.url)) continue;
       const text = `${r.title} ${r.content}`.toLowerCase();
       const mentions = c.names.some((n) => text.includes(n));
@@ -77,8 +81,10 @@ for (const [slug, c] of Object.entries(COMPANIES)) {
       });
     }
   }
-  writeFileSync(join(root, "data", "evidence", `${slug}.json`), JSON.stringify(out, null, 2));
+  if (!out.results.length) throw new Error(`No results named ${slug}; existing caches left unchanged.`);
+  pending.push([slug, out]);
   const kinds = out.results.reduce((a, r) => ((a[r.kind] = (a[r.kind] || 0) + 1), a), {});
   console.log(`${slug}: ${out.results.length} results`, JSON.stringify(kinds));
   for (const r of out.results) console.log(`  [${r.kind}] ${r.title.slice(0, 80)} | ${r.source}`);
 }
+for (const [slug, out] of pending) writeFileSync(join(root, "data", "evidence", `${slug}.json`), JSON.stringify(out, null, 2));
