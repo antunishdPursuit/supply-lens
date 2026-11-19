@@ -1,0 +1,60 @@
+{
+  "source": "sayari",
+  "pulled_at": "2026-11-19",
+  "method": "Read from the Sayari Graph web app (shared event login); copied by hand.",
+  "entity": {
+    "sayari_id": "aNJF6BJkJZt-U6it9pCm9w",
+    "name": "PAO Sovcomflot",
+    "local_name": "ПАО Современный коммерческий флот",
+    "country": "RU",
+    "registered_capital": "₽2,374,993,901 (as of 2020-11-25, Russia Federal Tax Registry)",
+    "related_entities_count": 927,
+    "relationships_summary": { "has_subsidiary": 22, "owner_of": 96, "shareholder_of": 7, "has_shareholder": 4, "has_director": 10, "linked_to": 353, "procures_from": 129, "awarder_of": 295 },
+    "records_count": 7547
+  },
+  "risk_factors": [
+    { "category": "Sanctions and export control lists", "level": "CRITICAL", "name": "Sanctioned under USA OFAC SDN List", "issuer_country": "US" },
+    { "category": "Sanctions and export control lists", "level": "CRITICAL", "name": "Sanctioned under UK Sanctions List", "issuer_country": "GB" },
+    { "category": "Sanctions and export control lists", "level": "CRITICAL", "name": "Sanctioned under EU Restrictive Measures", "issuer_country": "EU" },
+    { "category": "Sanctions and export control lists", "level": "CRITICAL", "name": "Sanctioned under Switzerland SECO Sanctions List", "issuer_country": "CH" },
+    { "category": "Sanctions and export control lists", "level": "CRITICAL", "name": "Sanctioned under Consolidated Canadian Autonomous Sanctions List", "issuer_country": "CA" },
+    { "category": "Sanctions and export control lists", "level": "CRITICAL", "name": "Sanctioned under Consolidated Australian Sanctions List", "issuer_country": "AU" },
+    { "category": "Sanctions and export control lists", "level": "CRITICAL", "name": "Sanctioned under New Zealand Russia Sanctions List", "issuer_country": "NZ" },
+    { "category": "Sanctions and export control lists", "level": "CRITICAL", "name": "Sanctioned under France National Asset Freeze Register List", "issuer_country": "FR" },
+    { "category": "Sanctions and export control lists", "level": "CRITICAL", "name": "Sanctioned under other International Sanctions Lists", "issuer_country": null },
+    { "category": "Sanctions and export control lists", "level": "HIGH", "name": "Sanctioned under Ukraine Sanctions List (Ukraine State Sanctions Registry)", "issuer_country": "UA" },
+    { "category": "Sanctions and export control lists", "level": "ELEVATED", "name": "Formerly Sanctioned under USA OFAC Non-SDN Consolidated Sanctions List", "issuer_country": "US" },
+    { "category": "Sanctions", "level": "HIGH", "name": "Owner of sanctioned entities (US OFAC SDN, UK, EU, Switzerland, Canada, Australia, New Zealand, France, Japan MoF)", "issuer_country": "multiple" },
+    { "category": "Sanctions", "level": "HIGH", "name": "Controlled by sanctioned entities (OFAC SDN, UK, EU, Australia, Ukraine)", "issuer_country": "multiple" },
+    { "category": "Political exposure", "level": "HIGH", "name": "Russian State-Owned or Controlled Enterprise" },
+    { "category": "Political exposure", "level": "HIGH", "name": "State-Owned Enterprise (SOE)" },
+    { "category": "Political exposure", "level": "HIGH", "name": "Owner of State-Owned Enterprise (SOE)" },
+    { "category": "Political exposure", "level": "ELEVATED", "name": "Related to Politically Exposed Person (PEP)" },
+    { "category": "Export controls", "level": "HIGH", "name": "Procurement Activity in High-Risk Jurisdiction" },
+    { "category": "Regulatory action", "level": "HIGH", "name": "Regulatory Action" },
+    { "category": "Adverse media", "level": "ELEVATED", "name": "Terrorism (Recent); Organized Crime (Recent); Law Enforcement Action (Historic); Other Reputational Risk (Historic)" }
+  ],
+  "risk_factors_total": 37,
+  "risk_factors_note": "Sayari lists 37 risk factors; the 15 'Owner of' / 'Controlled by' sanctions factors are grouped into two rows here.",
+  "downstream_holdings": [
+    { "name": "SOVCOMFLOT (UK) LTD", "country": "GB", "share_pct": 100, "as_of": "2026-10-15" },
+    { "name": "SCF OVERSEAS HOLDING LIMITED", "share_pct": 100, "as_of": "2026-03-13" },
+    { "name": "Sovchart S.A.", "share_pct": 100, "as_of": "2020" },
+    { "name": "ООО «СКФ Арктика»", "name_en": "SCF Arktika LLC", "country": "RU", "share_pct": 99, "as_of": "2023-10-19" },
+    { "name": "ПАО «Новороссийское морское пароходство»", "name_en": "Novoship (Novorossiysk Shipping Co.)", "country": "RU", "share_pct": 89.46, "as_of": "2020" },
+    { "name": "АО «Санкт-Петербургская международная товарно-сырьевая биржа»", "name_en": "St. Petersburg International Mercantile Exchange", "country": "RU", "share_pct": 2, "as_of": "2020-07-18" },
+    { "name": "Банк «ГПБ-Ипотека»", "name_en": "GPB-Ipoteka Bank", "country": "RU", "share_pct": null, "as_of": "2019-02-09" }
+  ],
+  "directors_recent": [
+    { "name": "Sergey Ottovich Frank", "role": "Member of the Board", "as_of": "2026-09-24" },
+    { "name": "Igor Vasilyevich Tonkovidov", "role": "Director", "as_of": "2026-04-14" },
+    { "name": "Aleksey Lvovich Sadikov", "role": "Director", "as_of": "2026-09-24" },
+    { "name": "Pavel Yurevich Sorokin", "role": "Director", "as_of": "2026-09-24" }
+  ],
+  "trade": { "shipments_total": 0 },
+  "adverse_media_records": 50,
+  "notes": [
+    "Sayari counts 96 'owner of' links and 22 subsidiaries, against 20 unique subsidiaries in Tradeverifyd.",
+    "Directly sanctioned by 9 or more issuers; also flagged as owner of entities sanctioned by Japan's Ministry of Finance, which Tradeverifyd's designations do not list."
+  ]
+}

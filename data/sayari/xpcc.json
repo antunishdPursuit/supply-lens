@@ -1,0 +1,73 @@
+{
+  "source": "sayari",
+  "pulled_at": "2026-11-19",
+  "method": "Read from the Sayari Graph web app (shared event login); copied by hand.",
+  "entity": {
+    "sayari_id": "WwENVfjtTqE_ncwKgT6krw",
+    "name": "Xinjiang Production and Construction Corps",
+    "local_names": ["新疆生产建设兵团", "兵团", "中国新建集团公司 (China Xinjian Group)"],
+    "country": "CN",
+    "address": "Xinjiang, China",
+    "incorporated": "1954-08-06",
+    "company_type": "Government bureaus",
+    "identifiers": [
+      { "type": "USA OFAC UID Number", "value": "29299" },
+      { "type": "China Unified Social Credit Code", "value": "119900000106319731" }
+    ],
+    "sources_count": 18,
+    "related_entities_count": 184,
+    "relationships_summary": { "has_subsidiary": 15, "shareholder_of": 44, "owner_of": 2, "has_shareholder": 1, "linked_to": 23, "issuer_of": 89 },
+    "possibly_same_as_count": 1
+  },
+  "risk_factors": [
+    { "category": "Sanctions and export control lists", "level": "CRITICAL", "name": "Sanctioned under USA OFAC SDN List", "issuer_country": "US" },
+    { "category": "Sanctions and export control lists", "level": "CRITICAL", "name": "Entity in BIS Entity List", "issuer_country": "US" },
+    { "category": "Forced labor", "level": "CRITICAL", "name": "UFLPA Entity", "issuer_country": "US" },
+    { "category": "Forced labor", "level": "CRITICAL", "name": "WRO Entity", "issuer_country": "US" },
+    { "category": "Forced labor", "level": "HIGH", "name": "Owner of Xinjiang-Based Entity" },
+    { "category": "Forced labor", "level": "HIGH", "name": "Owner of UFLPA Entity" },
+    { "category": "Forced labor", "level": "HIGH", "name": "Owned by Xinjiang-Based Entity" },
+    { "category": "Forced labor", "level": "HIGH", "name": "Owner of Entity from Sheffield Hallam University Forced Labor Reports" },
+    { "category": "Forced labor", "level": "HIGH", "name": "Entity with Xinjiang Keyword" },
+    { "category": "Forced labor", "level": "HIGH", "name": "Xinjiang-Geolocated Entity" },
+    { "category": "Political exposure", "level": "HIGH", "name": "State-Owned Enterprise (SOE)" },
+    { "category": "Political exposure", "level": "HIGH", "name": "Owner of Chinese State-Owned Enterprise" },
+    { "category": "Political exposure", "level": "HIGH", "name": "Owner of State-Owned Enterprise (SOE)" },
+    { "category": "Political exposure", "level": "HIGH", "name": "Chinese State-Owned Enterprise" },
+    { "category": "Political exposure", "level": "ELEVATED", "name": "Related to Politically Exposed Person (PEP)" },
+    { "category": "Regulatory action", "level": "HIGH", "name": "Owned by Entity Subject to Regulatory Action" },
+    { "category": "Regulatory action", "level": "HIGH", "name": "Owner of Entity Subject to Regulatory Action" },
+    { "category": "Regulatory action", "level": "HIGH", "name": "Regulatory Action" },
+    { "category": "Regulatory action", "level": "ELEVATED", "name": "Law Enforcement Action (Historic)" },
+    { "category": "Sanctions", "level": "HIGH", "name": "Owned by Consolidated Canadian Autonomous Sanctions List Entity", "issuer_country": "CA" },
+    { "category": "Sanctions", "level": "HIGH", "name": "Owned by USA OFAC SDN List Entity", "issuer_country": "US" },
+    { "category": "Adverse media", "level": "ELEVATED", "name": "Law Enforcement Action (Historic)" }
+  ],
+  "downstream_holdings": [
+    { "name": "新疆生产建设兵团供销运输机械工程部", "name_en": "XPCC Supply and Marketing Transport Machinery Engineering Dept.", "share_pct": 100, "as_of": "2026-07-28" },
+    { "name": "海南海疆贸易公司", "name_en": "Hainan Haijiang Trading Co.", "share_pct": 100, "as_of": "2026-07-28" },
+    { "name": "新疆兵团西安物资供销公司", "name_en": "Xinjiang Bingtuan Xi'an Materials Supply Co.", "share_pct": 100, "as_of": "2026-07-28" },
+    { "name": "新疆生产建设兵团边城商贸公司", "name_en": "XPCC Biancheng Trading Co.", "share_pct": 100, "as_of": "2026-07-28" },
+    { "name": "喀什生产建设兵团农三师经济开发公司", "name_en": "Kashgar XPCC Third Agricultural Division Economic Development Co.", "share_pct": 100, "as_of": "2026-07-23" },
+    { "name": "新疆生产建设兵团种子公司经销部", "name_en": "XPCC Seed Company Sales Dept.", "share_pct": 100, "as_of": "2026-07-28" },
+    { "name": "新疆农垦粮油食品土畜医保进出口公司", "name_en": "Xinjiang Agricultural Reclamation Grain, Oil, Food and Native Produce Import & Export Co.", "share_pct": null, "as_of": "2026-07-28" },
+    { "name": "珠海经济特区神驰实业股份有限公司", "name_en": "Zhuhai SEZ Shenchi Industrial Co., Ltd.", "share_pct": 6.54, "as_of": "2026-05-09" }
+  ],
+  "named_units_in_search": [
+    "The Petroleum Co., Ltd. of Xinjiang Production & Construction Group",
+    "Xinjiang Corps Survey and Design Institute (Group) Co., Ltd",
+    "Xinjiang Production and Construction Corps Public Security Bureau",
+    "XPCC Fruit Industry Co., Ltd",
+    "XPCC First Division Huaqiao Prison",
+    "XPCC Natural Gas Co., Ltd",
+    "XPCC Pharmaceutical Co., Ltd"
+  ],
+  "board": [{ "name": "Zhongyou He", "role": "Member of the Board", "as_of": "2026-10-14" }],
+  "trade": { "shipments_total": 0 },
+  "adverse_media_records": 7,
+  "notes": [
+    "XPCC itself has no shipments in Sayari; trade exposure runs through its subsidiaries and divisions.",
+    "English names of holdings are our translations of Chinese registry names.",
+    "The Sayari search listed many XPCC units, including a prison and a public security bureau, which shows the state and security role of the organisation."
+  ]
+}

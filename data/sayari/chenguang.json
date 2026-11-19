@@ -1,0 +1,78 @@
+{
+  "source": "sayari",
+  "pulled_at": "2026-11-19",
+  "method": "Read from the Sayari Graph web app (shared event login); copied by hand.",
+  "entity": {
+    "sayari_id": "2JGuTHcRSuEKtv6JIZ6mcw",
+    "name": "CHENGUANG BIOTECH GROUP CO LTD",
+    "local_name": "晨光生物科技集团股份有限公司",
+    "country": "CN",
+    "address": "No.1 Chenguang Road, Quzhou County, Hebei Province, China 057250",
+    "incorporated": "2000",
+    "identifiers": [
+      { "type": "China Unified Social Credit Code", "value": "91130400106900891W" },
+      { "type": "LEI", "value": "655600XIK27S3214IO50" },
+      { "type": "China Company Registration Number", "value": "130435000000577" }
+    ],
+    "business": "Natural colourings and extracts (paprika red, lutein, turmeric/curcumin, capsicum oleoresin, stevia, tea polyphenols), plant oils, cottonseed products.",
+    "possibly_same_as_count": 2,
+    "sources_count": 52,
+    "related_entities_count": 595
+  },
+  "risk_factors": [
+    { "category": "Forced labor", "level": "CRITICAL", "name": "UFLPA Entity" },
+    { "category": "Forced labor", "level": "CRITICAL", "name": "Entity from Sheffield Hallam University Forced Labor Reports" },
+    { "category": "Forced labor", "level": "HIGH", "name": "Owner of Xinjiang-Based Entity" },
+    { "category": "Forced labor", "level": "HIGH", "name": "Owner of UFLPA Entity" },
+    { "category": "Forced labor", "level": "HIGH", "name": "Xinjiang-Geolocated Entity" },
+    { "category": "Export controls", "level": "HIGH", "name": "Procurement Activity in High-Risk Jurisdiction" },
+    { "category": "Regulatory action", "level": "ELEVATED", "name": "Law Enforcement Action (Historic)" },
+    { "category": "Adverse media", "level": "ELEVATED", "name": "Law Enforcement Action (Historic)" },
+    { "category": "Political exposure", "level": "ELEVATED", "name": "Related to Chinese State-Owned Enterprise" },
+    { "category": "Political exposure", "level": "ELEVATED", "name": "Related to State-Owned Enterprise (SOE)" }
+  ],
+  "owners": [
+    { "name": "卢庆国", "name_en": "Lu Qingguo (founder, director)", "type": "person", "share_pct": 20.33, "share_value": "¥98,196,051", "as_of": "2026-10-04" }
+  ],
+  "subsidiaries": [
+    { "name": "晨光生物科技集团焉耆有限公司", "name_en": "Chenguang Biotech Group Yanqi Co., Ltd.", "region": "Xinjiang (Yanqi)", "share_pct": 100, "as_of": "2026-10-08" },
+    { "name": "新疆晨曦椒业有限公司", "name_en": "Xinjiang Chenxi Pepper Industry Co., Ltd.", "region": "Xinjiang", "share_pct": 100, "as_of": "2026-08-13" },
+    { "name": "新疆晨光生物科技股份有限公司", "name_en": "Xinjiang Chenguang Biotech Co., Ltd.", "region": "Xinjiang", "share_pct": null, "as_of": "2026-08-13" },
+    { "name": "和田晨光生物科技有限公司", "name_en": "Hotan Chenguang Biotech Co., Ltd.", "region": "Xinjiang (Hotan)", "share_pct": null, "as_of": "2026-08-13" },
+    { "name": "新疆天椒红安种业科技股份有限公司", "name_en": "Xinjiang Tianjiao Hong'an Seed Technology Co., Ltd.", "region": "Xinjiang", "share_pct": null, "as_of": "2026-08-13" },
+    { "name": "晨光生物科技集团邯郸有限公司", "name_en": "Chenguang Biotech Group Handan Co., Ltd.", "region": "Hebei", "share_pct": 100, "as_of": "2026-08-13" },
+    { "name": "天津市晨之光天然产品科技发展有限公司", "name_en": "Tianjin Chenzhiguang Natural Products Co., Ltd.", "region": "Tianjin", "share_pct": 100, "as_of": "2026-08-13" },
+    { "name": "腾冲晨光云麻生物科技有限公司", "name_en": "Tengchong Chenguang Yunma Biotech Co., Ltd.", "region": "Yunnan", "share_pct": 100, "as_of": "2026-08-13" },
+    { "name": "河北晨光药业有限公司", "name_en": "Hebei Chenguang Pharmaceutical Co., Ltd.", "region": "Hebei", "share_pct": 100, "as_of": "2026-08-13" },
+    { "name": "河北可口食品有限公司", "name_en": "Hebei Kekou Food Co., Ltd.", "region": "Hebei", "share_pct": 100, "as_of": "2026-08-13" },
+    { "name": "河北丝路晨光油脂有限公司", "name_en": "Hebei Silk Road Chenguang Oils Co., Ltd.", "region": "Hebei", "share_pct": 100, "as_of": "2026-08-13" },
+    { "name": "晨光天然提取物（印度）有限公司", "name_en": "Chenguang Natural Extracts (India) Pvt Ltd", "region": "India", "share_pct": null, "as_of": "2026-07-26" },
+    { "name": "晨光生物科技（美国）有限公司", "name_en": "Chenguang Biotech (USA)", "region": "United States", "share_pct": null, "as_of": "2026-07-26" }
+  ],
+  "trade": {
+    "shipments_total": 2779,
+    "shippers_total": 17,
+    "receivers_total": 212,
+    "top_partners_unordered": [
+      "Công ty Cổ phần Tập đoàn Trân Châu (VN)",
+      "Value Ingredients Private Limited (IN)",
+      "Chenguang Bio-Tech (India) Private Limited (IN)",
+      "Sanwa Pty Ltd (AU)",
+      "Công ty TNHH Một Thành Viên Nông Sản Dk (VN)",
+      "Roha Lautan Pewarna (ID)",
+      "Katra Phytochem (India) Private Limited (IN)",
+      "PT Global Inovasi Cemerlang (ID)",
+      "Naturaextracta SA de CV (MX)",
+      "Bangja Inti Ingridien (ID)"
+    ],
+    "top_partners_note": "Sayari's chart lists top shippers and receivers by shipment count (32, 24, 18, 12, 10 and 220, 167, 166, 127, 88), but the page text did not show which name goes with which count or side. Not yet confirmed.",
+    "goods_received_top": ["0904.11 pepper", "0910.30 turmeric", "0904.22 capsicum, crushed or ground", "1207 oil seeds", "1301.90 oleoresins"],
+    "goods_sent_top": ["0602.20 live fruit trees", "03 fish and crustaceans", "0910.30 turmeric"]
+  },
+  "adverse_media_records": 1,
+  "notes": [
+    "At least five subsidiaries are in Xinjiang (Yanqi, Hotan, Xinjiang Chenxi Pepper, Xinjiang Chenguang, Xinjiang Tianjiao Hong'an), which matches the 'Owner of Xinjiang-Based Entity' risk factor.",
+    "English subsidiary names are our translations of the Chinese registry names.",
+    "Session expired before the full receivers list could be read."
+  ]
+}
