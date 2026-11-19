@@ -4,13 +4,13 @@ Supply Lens is a story website that shows, in plain language, how ordinary suppl
 
 1. **Paprika**: a US spice brand, three trade steps from a company on the US forced-labour (UFLPA) list.
 2. **Shipping**: a London shipping office with no alerts in trade data, owned by a company sanctioned in nine jurisdictions.
-3. **Cotton**: a Xinjiang cotton conglomerate on both kinds of list, whose subsidiaries carry neither sanction.
+3. **Cotton**: a Xinjiang cotton conglomerate on both kinds of list; none of the subsidiaries we checked carries its sanctions.
 
 Each case compares three kinds of evidence (trade data, ownership records and the open web) and shows where they disagree. Every numbered claim links to its sources on the Sources page.
 
 ## Data
 
-All data is cached; the site makes no live data calls.
+All data is cached; the site calls no data APIs. Map shapes (world-atlas), the D3 libraries and fonts load from public CDNs.
 
 - `data/tradeverifyd/`: company records, trade relationships, ownership links and stored government listings, pulled from Tradeverifyd on 19 November 2026.
 - `data/sayari/`: ownership and risk-factor details read from Sayari Graph on 19 November 2026.
