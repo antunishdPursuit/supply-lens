@@ -1,0 +1,110 @@
+{
+  "source": "tradeverifyd",
+  "pulled_at": "2026-11-19",
+  "company": {
+    "entity_id": "2b49b203-3f88-4426-824d-2843e5fb9ba5",
+    "name": "Chenguang Biotech Group Co., Ltd.",
+    "country": "CN",
+    "aliases": [
+      "晨光生物科技集团股份有限公司",
+      "晨光生物",
+      "CCGB",
+      "Chenguang Biotech Group Co Ltd",
+      "CHENGUANG BIOTECH GROUP COMPANY LIMITED",
+      "CHENGUANG BIOTECH GROUP CHINA",
+      "Beijing Tsingke Biotech Co., Ltd.",
+      "Beijing Qingke Biotechnology Co., Ltd.",
+      "Tsingke Biotechnology Co., Ltd"
+    ],
+    "external_ids": [
+      {"type": "lei", "value": "655600XIK27S3214IO50"},
+      {"type": "company_number", "value": "91130400106900891W"},
+      {"type": "ticker", "value": "XSHE:300138"}
+    ],
+    "industry": null
+  },
+  "tradeverifyd_score": 256,
+  "designations": [
+    {"list": "BIS Entity List", "name": "BIS Entity List (EL)", "category": "BIS", "issuer_country": "US", "date": "2025-09-12", "url": "https://www.opensanctions.org/datasets/us_trade_csl/"},
+    {"list": "US BIS", "name": "Entity List (EL) - Bureau of Industry and Security", "category": "BIS", "issuer_country": "US", "date": "2025-09-12", "url": "https://www.bis.gov/regulations/ear/744#supplement-4-744"},
+    {"list": "UFLPA", "name": "Uyghur Forced Labor Prevention Act (Public Law No. 117-78)", "category": "UFLPA", "issuer_country": "US", "date": "2023-08-02", "url": "https://www.opensanctions.org/datasets/us_dhs_uflpa/"},
+    {"list": "Forced Labor Research", "name": "Companies Operating in the Uyghur Region", "category": "Forced Labor Research", "issuer_country": "research", "date": null, "url": "https://www.opensanctions.org/datasets/shu_uyghur_companies/"}
+  ],
+  "parents": [],
+  "subsidiaries": [
+    {"entity_id": "6b9e72da-3699-45a4-80d8-53218f9aaefc", "name": "Chenguang Biotechnology Group Yanqi Co., Ltd.", "country": "CN", "relationship_type": "parent_subsidiary", "source": "Tradeverifyd Legacy Data Model", "annotation_count": 1, "badges": {"UFLPA": 1}}
+  ],
+  "subsidiaries_total": 1,
+  "suppliers": [
+    {"entity_id": "956076ef-9d12-45f2-a602-9d05b145e776", "name": "pearl group joint stock company", "country": null, "hs_codes": ["09041120"], "badges": null},
+    {"entity_id": "196bda9e-76d4-458d-83fb-56c55ef14f18", "name": "DR WILLMAR SCHWABE INDIA PRIVATE LIMITED", "country": null, "hs_codes": ["13021919"], "badges": null},
+    {"entity_id": "e1b9ced1-8425-430b-861b-c6fa3ac797fa", "name": "dk agricultural products one member limited liability company", "country": null, "hs_codes": ["09041120"], "badges": null},
+    {"entity_id": "ad5333de-2664-47c1-91b7-8fe08effea9f", "name": "CHENGUANG NATURAL EXTRACTS (INDIA) PRIVATE LIMITED", "country": null, "hs_codes": ["13019045"], "badges": null},
+    {"entity_id": "60a21fd7-5dd0-4287-9b02-4a4f8135c949", "name": "SUSTAINABLE SUPPLY CHAIN JOINT STOCK COMPANY", "country": null, "hs_codes": ["09041120"], "badges": null},
+    {"entity_id": "8dce8c36-c1f0-4000-8916-9ad1c050393c", "name": "MMR CHEMICALS", "country": null, "hs_codes": ["29225090"], "badges": null},
+    {"entity_id": "a5c26780-f284-4afb-b9c2-c53793a2e7b0", "name": "CHENGUANG NATURAL EXTRACTS INDIA PRIVATE LIMITED", "country": null, "hs_codes": ["13019045"], "badges": null}
+  ],
+  "buyers": [
+    {"entity_id": "d18d3a0f-4c46-4f4e-a859-85a7f671b84f", "name": "International Flavors & Fragrances (Mexico), S. de R.L. de C.V.", "country": null, "hs_codes": ["0712909999","0904220299","1302199900","1516200100","1702300100","2103909900","2811220301","2902199999","2905220601","2905390200","2906110100","2911000400","2912199999","2912299999","2914399999","2915390300","2915390900","2915391500","2915399999","2915609999","2915909999","2916199999","2916319999","2916399999","2917349900","2918110100","2918239101","2918999999","2924199900","2924299999","2930909999","2932199999","2932201199","2932999999","3301190702","3301299999","3301900100"], "badges": null},
+    {"entity_id": "b230fe26-3f7a-4122-8cd5-86216fc15c15", "name": "GIA NGUYEN SERVICE AND TRADING COMPANY LIMITED", "country": null, "hs_codes": ["13021990","29389000","32030010","33012990","33019090"], "badges": null},
+    {"entity_id": "5c85e3cf-6dd3-496e-bb9e-ab8cc4734e59", "name": "KATRA PHYTOCHEM (INDIA) PRIVATE LIMITED", "country": null, "hs_codes": ["13019045","13021919","13021990","21069019","21069099"], "badges": null},
+    {"entity_id": "9176cfa8-d9f7-4c6e-aee3-0df93ed5d3a7", "name": "ALPHA BIOTECH INTERNATIONAL TRADING JOINT STOCK COMPANY", "country": null, "hs_codes": ["32030090"], "badges": null},
+    {"entity_id": "9818c398-0f89-4331-9980-622d5eba3c4e", "name": "Leader Biotecnología de Mexico, S.A. de C.V.", "country": null, "hs_codes": ["3203000301","3203000399"], "badges": null},
+    {"entity_id": "8289bbc9-a106-4f06-8730-e749bfc43afe", "name": "VIN SUPER FOODS", "country": null, "hs_codes": ["13021911","13021919","21012090"], "badges": null},
+    {"entity_id": "a2958ce0-25b6-40cd-93e8-c0ae1b9ecb1a", "name": "ROHA DYECHEM VIETNAM LTD", "country": null, "hs_codes": ["32030010","33019090"], "badges": null},
+    {"entity_id": "151277de-95b7-4c10-b9e5-c0f184c0c03f", "name": "AKAY NATURAL INGREDIENTS PRIVATE LIMITED", "country": null, "hs_codes": ["33019029"], "badges": null},
+    {"entity_id": "fb08cdc0-7fc5-4dd6-8852-222441169085", "name": "BOS CO", "country": null, "hs_codes": ["33019022"], "badges": null},
+    {"entity_id": "315cf30f-0571-441a-b04f-64cec166c9dc", "name": "IOSA", "country": null, "hs_codes": ["13021999","1302199900","14049099","1404909902"], "badges": null},
+    {"entity_id": "24806f80-ae87-47e8-bee0-68029815841f", "name": "viet spice production, trade and service company limited", "country": null, "hs_codes": ["29389000","32030010","33019090"], "badges": null},
+    {"entity_id": "9d34f5bf-428f-4e73-8e24-23bc39946c38", "name": "INGEX BOTANICALS LIMITED", "country": null, "hs_codes": ["13021919","13021990","21069019","21069099"], "badges": null},
+    {"entity_id": "316bf63d-3cd3-4eb1-b799-f0bf60daea41", "name": "EMIVEST FEEDMILL VIETNAM COMPANY LIMITED", "country": null, "hs_codes": ["32030090"], "badges": null},
+    {"entity_id": "cd5df34b-fbf9-4b06-a1e1-3a0d4069869c", "name": "GREENLEAF EXTRACTIONS PRIVATE LIMITED", "country": null, "hs_codes": ["33019022","33019029"], "badges": null},
+    {"entity_id": "a8ee56ad-ab9c-47e5-8521-1a0da3369bf6", "name": "IDACOL FOOD COLORS S.A. DE C.V.", "country": null, "hs_codes": ["32030003"], "badges": null},
+    {"entity_id": "e7b920fb-aba3-4d1b-83ec-d2d35889152e", "name": "international flavors & fragances (mexico) s. de r.l. de c.v.", "country": null, "hs_codes": ["12129202","18020001","29156099","29321999","33019001"], "badges": null},
+    {"entity_id": "46c26c59-b334-43b4-8156-f4f31021e6ae", "name": "KONARK HERBALS AND HEALTHCARE PRIVATE LIMITED", "country": null, "hs_codes": ["13021919"], "badges": null},
+    {"entity_id": "8e7bef2f-ff22-4008-87b3-ad4faf2199ad", "name": "KATRA PHYTOCHEM INDIA PRIVATE LIMITED", "country": null, "hs_codes": ["13019045","13021990","21069019"], "badges": null},
+    {"entity_id": "77b34bbf-3647-436f-a288-e89671549cca", "name": "emivest feedmill (tg) vietnam co., ltd - dong thap branch", "country": null, "hs_codes": ["32030090"], "badges": null},
+    {"entity_id": "83554a8a-4d4b-4604-ae8d-c013d4d72017", "name": "BIOEXTRACT", "country": null, "hs_codes": ["13019045","13021919"], "badges": null},
+    {"entity_id": "1f109510-9e74-4ed0-ae83-417e9f75800b", "name": "ROHA Sciences Mexico, S.A. de C.V.", "country": null, "hs_codes": ["3203000399"], "badges": null},
+    {"entity_id": "e942a986-4765-413f-a847-6ec488024b5e", "name": "Industrias Vepinsa, S.A. de C.V.", "country": null, "hs_codes": ["32030003"], "badges": null},
+    {"entity_id": "2de3c3d7-545f-4d3a-9066-57d37b8ce161", "name": "PRAKRUTI", "country": null, "hs_codes": ["13021919"], "badges": null},
+    {"entity_id": "662fb18e-3949-4358-b1b1-589732a7cd4e", "name": "METEORIC NATURALS PRIVATE LIMITED", "country": null, "hs_codes": ["13021919","32030010"], "badges": null},
+    {"entity_id": "5c96a8a4-0f36-4239-b301-07aa377ff1ee", "name": "MEKONG SAUCE PROCESSING COMPANY LIMITED", "country": null, "hs_codes": ["32030010","33019090"], "badges": null}
+  ],
+  "flagged_paths": [
+    {
+      "direction": "out",
+      "annotated_entity": {"entity_id": "7a5e7047-c304-44a6-8a13-a36c867528f8", "name": "Canada", "country": "CA", "badges": {"US GSA": 1, "US OFAC": 2}},
+      "hops": [
+        {"entity_id": "2b49b203-3f88-4426-824d-2843e5fb9ba5", "name": "Chenguang Biotech Group Co., Ltd.", "tier": 0, "hs_codes": []},
+        {"entity_id": "9de5d776-4160-4e0b-99ea-540fda45274b", "name": "PLANT LIPIDS PRIVATE LIMITED", "tier": 1, "hs_codes": ["33019014"]},
+        {"entity_id": "7a5e7047-c304-44a6-8a13-a36c867528f8", "name": "Canada", "tier": 2, "hs_codes": ["33012932","33019013","33019016","33019022","33019025"]}
+      ]
+    }
+  ],
+  "related_records": [
+    {"entity_id": "6b9e72da-3699-45a4-80d8-53218f9aaefc", "name": "Chenguang Biotechnology Group Yanqi Co., Ltd.", "country": "CN", "why": "Linked subsidiary in Yanqi, Xinjiang (USCC 91652826MA783XLE17); carries its own UFLPA annotation."},
+    {"entity_id": "55a020b5-35bc-4f78-ab42-3867b96be661", "name": "chenguang bio-tech group shache co. ltd", "country": "CN", "why": "Shache (Xinjiang) subsidiary from shipping records; no external IDs, no annotations, not linked to the parent as an affiliate."},
+    {"entity_id": "681f4f1f-8deb-483a-9be9-d8cf0d88e03e", "name": "Chenguang Bio Tech Group Shache Co Ltd", "country": "CN", "why": "Duplicate of the Shache subsidiary record; no annotations."},
+    {"entity_id": "b5bbb50b-213f-417c-b5a4-03cad52bc062", "name": "chenguang bio-tech group shache co. ltd", "country": "HK", "why": "Duplicate of the Shache subsidiary record, tagged HK; no annotations."},
+    {"entity_id": "adcacf33-2615-4d87-be06-573deef0f63f", "name": "Chenguang Biotech Group Co., Ltd. Animal Nutrition Branch", "country": "CN", "why": "Branch of the parent (national_id 130435300002443); not linked; no annotations."},
+    {"entity_id": "e08a9c47-0bf2-4bda-ba87-6df9a07c13dd", "name": "Chenguang Biotech Group Co., Ltd. Shuirong Pigment Branch", "country": "CN", "why": "Branch of the parent (national_id 130435300002664); not linked; no annotations."},
+    {"entity_id": "93b3f1f9-eaf2-405c-b1a0-b9ee9a254334", "name": "chenguang biotech (hongkong) co., limited", "country": "CN", "why": "Likely Hong Kong trading arm (name match only, shipping record); no annotations."},
+    {"entity_id": "c55c1465-f7f6-4e27-84ca-9f9eda5e5c13", "name": "CHENGUANG BIOTECH GROUP CO., LTDNO.1 CHENGUANG ROAD QUZHOU COUNTY HEBEI PROVINCE 057250 SDNF CHINACHINA", "country": "CN", "why": "Duplicate parent record from a shipping manifest (name plus Quzhou, Hebei headquarters address); no annotations."},
+    {"entity_id": "c759ba57-c016-4707-a3b4-1f20c487aedf", "name": "CHENGUANG BIOTECH GROUP CO LTDNO 1 CH", "country": "CN", "why": "Duplicate parent record (truncated manifest name with address); 3 outbound trade links; no annotations."},
+    {"entity_id": "5da6e449-a6cf-4a31-bfd1-842c274ac3be", "name": "chenguang biotech group co., ltd. c/w fesco integrated transport llc", "country": "CN", "why": "Duplicate parent record from a manifest naming a freight forwarder; no annotations."},
+    {"entity_id": "ece5c974-ee95-4a39-a0d2-613d070ed178", "name": "BEIJING TSINGKE BIIOTECH CO., LTD", "country": "CN", "why": "Beijing Tsingke record; Tsingke names appear as aliases of the Chenguang main record, which looks like a merge of two different companies. No annotations here."},
+    {"entity_id": "2366eeeb-9c2d-4a1f-b2ab-13e905166752", "name": "BEIJING TSINGKE BIOTECH CHINA", "country": "CN", "why": "Another Beijing Tsingke record, see above; no annotations."}
+  ],
+  "notes": [
+    "The main record merges Chenguang (Hebei natural-extracts maker, ticker XSHE:300138, LEI 655600XIK27S3214IO50) with aliases for Beijing Tsingke Biotech / Tsingke Biotechnology, which is a different company (gene synthesis). Because of this merge, the two BIS Entity List designations dated 2025-09-12 may belong to Tsingke rather than Chenguang. Inferred, not verified; check the BIS Federal Register entry before showing BIS as a Chenguang finding. The UFLPA (2023-08-02) and Uyghur-region research designations fit Chenguang's Xinjiang operations.",
+    "tia_quick_check reports the entity as 'not_screened': designations are platform-attached annotations, not a screening result. Entity badges show US BIS x2, Forced Labor Research x2, UFLPA x1, but quick_check listed only one Forced Labor Research designation.",
+    "No parent records (direction in returned 0).",
+    "Only one subsidiary is linked: Chenguang Biotechnology Group Yanqi Co., Ltd. (Xinjiang), which has its own UFLPA badge. The Shache subsidiary exists as three unlinked, unannotated shipping-record duplicates. No Hotan record was found.",
+    "Searching 'Xinjiang Chenguang' returned only unrelated companies sharing the Chenguang name (construction, tomato, carbon, etc.); none were treated as related.",
+    "Trade: 7 suppliers (all listed; includes the group's own India unit Chenguang Natural Extracts India, twice as duplicate records) and 75 buyers in total, of which the first 25 are stored. Trade relationships carry no country field, so supplier/buyer country is null; badges were not looked up.",
+    "Notable buyers include International Flavors & Fragrances (Mexico) (two records, very broad flavour/chemical HS range) and ROHA (Vietnam and Mexico); products are mostly plant extracts, oleoresins and colourants (HS 1302, 3301, 3203).",
+    "Flagged paths: direction 'in' returned none. Direction 'out' returned 7 paths; 6 were dropped (only Natl Security badges). The one kept path ends at an entity literally named 'Canada' with US OFAC badges via buyer Plant Lipids, which looks like a data artifact (a country parsed as a company) rather than a real sanctioned counterparty.",
+    "Tier-1 buyers in the paths (Plant Lipids, Umalaxmi Organics, Sri Krishna Enterprises, Universal Oleoresins) are among the 50 buyers not stored on page 1."
+  ]
+}
